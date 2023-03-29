@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/calculator-app/static/css/main.7597172f.css",
+    "main.css": "/calculator-app/static/css/main.7e7c0a0c.css",
     "main.js": "/calculator-app/static/js/main.6fc79a45.js",
     "static/js/787.a174f9e5.chunk.js": "/calculator-app/static/js/787.a174f9e5.chunk.js",
     "static/media/Nunito-ExtraLight.ttf": "/calculator-app/static/media/Nunito-ExtraLight.52e1b77fe0519dcdcc7f.ttf",
     "index.html": "/calculator-app/index.html",
-    "main.7597172f.css.map": "/calculator-app/static/css/main.7597172f.css.map",
+    "main.7e7c0a0c.css.map": "/calculator-app/static/css/main.7e7c0a0c.css.map",
     "main.6fc79a45.js.map": "/calculator-app/static/js/main.6fc79a45.js.map",
     "787.a174f9e5.chunk.js.map": "/calculator-app/static/js/787.a174f9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7597172f.css",
+    "static/css/main.7e7c0a0c.css",
     "static/js/main.6fc79a45.js"
   ]
 }
