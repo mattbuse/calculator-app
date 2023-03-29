@@ -61,3 +61,23 @@ p {
 .calculator-grid button:hover {
   background-color: rgb(225, 225, 225, .5);
 }
+
+@media only screen and (max-width: 600px) {
+  .calculator-grid {
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
+  }
+
+  .output .previous-operand {
+    font-size: 1.25rem;
+  }
+  
+  .output .current-operand {
+    font-size: 2rem;
+  }
+  
+  .calculator-grid button {
+    font-size: 1.4rem;
+  }
+
+}

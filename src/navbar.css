@@ -32,6 +32,7 @@ nav {
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    flex-wrap: wrap;
 }
 
 .navigation-items {
@@ -56,3 +57,53 @@ nav li {
 nav li a:link {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 18px;
+        padding: 25px;
+    }
+    
+    header img {
+        padding: 15px;
+    }
+  
+    nav {
+        display: block;
+    }
+  
+    nav h1 {
+        margin-left: 0px;
+        font-size: 24px;
+        text-align: center;
+        justify-content: center;
+    }
+  
+    .navigation-items {
+        margin-right: 0px;
+        font-size: 22px;
+        justify-content: center;
+    }
+  
+    #small {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        width: 70%;
+        max-width: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 18px;
+      padding: 25px;
+    }
+  
+    nav {
+      display: block;
+    }
+  }
