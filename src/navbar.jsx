@@ -8,7 +8,7 @@ export default function NavBar() {
         <img src={logo} className="logo" />
         <ul className="navigation-items">
             <li><a href="https://mattbuse.github.io/Portfolio_Page/index.html">HOME</a></li>
-            <li><a href="https://mattbuse.github.io/Portfolio_Page/JS-Projects/Projects/projects.html">PROJECTS</a></li>
+            <li><a href="https://mattbuse.github.io/Portfolio_Page/JS-Projects/Projects/Projects/projects.html">PROJECTS</a></li>
         </ul>
     </nav>
     )
